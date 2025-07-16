@@ -332,9 +332,10 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "MockMdl",
+      "issuer_id": "MockMdl-testing",
       "credential_issuer": "MockMdl",
       "protocol": "OpenId4VCI",
+      "credential_issuer_host": "http://${mosip.injicertify.host}",
       "display": [
         {
           "name": "Transport Department",
