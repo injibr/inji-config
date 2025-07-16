@@ -191,7 +191,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "wallet-demo",
-      "client_alias": "mpartner-default-mimoto-mock-oidc",
+      "client_alias": "wallet-demo-client",
       "wellknown_endpoint": "http://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "http://${mosip.api.public.host}/v1/mimoto/get-token/Mock",
