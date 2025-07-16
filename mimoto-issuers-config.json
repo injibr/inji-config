@@ -307,33 +307,6 @@
     {
       "issuer_id": "MockMdl",
       "credential_issuer": "MockMdl",
-      "credential_issuer_host": "http://${mosip.injicertify.host}",
-      "display": [
-        {
-          "name": "Mock Mobile Driving License (Released)",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
-            "alt_text": "mosip-logo"
-          },
-          "title": "Mock Mobile Driving License",
-          "description": "Download Mock Mobile Driving License",
-          "language": "en"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "wallet-demo",
-      "client_alias": "wallet-demo-client",
-      "wellknown_endpoint": "http://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "authorization_audience": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
-      "token_endpoint": "http://${mosip.api.public.host}/v1/mimoto/get-token/MockMdl",
-      "proxy_token_endpoint": "https://${mosip.esignet.host}/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OnlineSharing",
-      "enabled": "true"
-    },
-    {
-      "issuer_id": "MockMdl-testing",
-      "credential_issuer": "MockMdl",
       "protocol": "OpenId4VCI",
       "credential_issuer_host": "http://${mosip.injicertify.host}",
       "display": [
