@@ -136,7 +136,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.partner.clientid}",
+      "client_id": "wallet-demo",
       "client_alias": "wallet-demo-client",
       "wellknown_endpoint": "http://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
@@ -163,7 +163,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.insurance.partner.clientid}",
+      "client_id": "wallet-demo",
       "client_alias": "mpartner-default-mimoto-insurance-oidc",
       "wellknown_endpoint": "http://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
@@ -190,7 +190,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mock.partner.clientid}",
+      "client_id": "wallet-demo",
       "client_alias": "mpartner-default-mimoto-mock-oidc",
       "wellknown_endpoint": "http://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
@@ -267,7 +267,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mosipid.partner.collab.clientid}",
+      "client_id": "wallet-demo",
       "client_alias": "mpartner-default-mimoto-mosipid-oidc-client",
       "wellknown_endpoint": "https://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
@@ -294,7 +294,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.land.partner.clientid}",
+      "client_id": "wallet-demo",
       "client_alias": "mpartner-default-mimoto-land-released-oidc",
       "wellknown_endpoint": "http://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
@@ -321,7 +321,7 @@
         }
       ],
       "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.mdl.partner.clientid}",
+      "client_id": "wallet-demo",
       "client_alias": "mpartner-default-mimoto-mdl-released-oidc",
       "wellknown_endpoint": "http://${mosip.injicertify.host}/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
