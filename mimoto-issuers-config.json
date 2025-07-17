@@ -4,6 +4,7 @@
       "credential_issuer": "Farmer",
       "issuer_id": "Farmer",
       "protocol": "OpenId4VCI",
+      "credential_issuer_host": "http://${mosip.injicertify.mosipid.host}",
       "display": [
         {
           "name": "Agriculture Department",
@@ -42,6 +43,7 @@
           "language": "en"
         }
       ],
+      "credential_issuer_host": "http://${mosip.injicertify.mosipid.host}",
       "client_id": "govbr",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "http://${mosip.api.public.host}/v1/mimoto/get-token/MockMdl",
