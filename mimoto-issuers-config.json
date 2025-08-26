@@ -51,7 +51,7 @@
       "token_endpoint": "https://injiweb.credenciaisverificaveis-dev.dataprev.gov.br/v1/mimoto/get-token/MGI",
       "proxy_token_endpoint": "https://esignet.crabdance.com/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer_host": "https://injicertify.credenciaisverificaveis-dev.dataprev.gov.br/issuance",
+      "credential_issuer_host": "https://injicertify.credenciaisverificaveis-dev.dataprev.gov.br/v1/certify/issuance",
       "enabled": "true"
     },
     {
@@ -78,7 +78,7 @@
       "token_endpoint": "https://injiweb.credenciaisverificaveis-dev.dataprev.gov.br/v1/mimoto/get-token/MDA",
       "proxy_token_endpoint": "https://esignet.crabdance.com/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
-      "credential_issuer_host": "https://injicertify.credenciaisverificaveis-dev.dataprev.gov.br/issuance",
+      "credential_issuer_host": "https://injicertify.credenciaisverificaveis-dev.dataprev.gov.br/v1/certify/issuance",
       "enabled": "true"
     }
   ]
